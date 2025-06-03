@@ -10,6 +10,8 @@
 #include <QFileInfo>
 #include <QMessageBox>
 
+#include "edit.h"
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MyToDo;
@@ -43,6 +45,8 @@ private slots:
     void on_actionAbout_triggered();
 
     void on_pushButton_clicked();
+
+    void on_tableWidget_cellClicked(int row, int column);
 
 private:
     Ui::MyToDo *ui;
