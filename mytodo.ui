@@ -81,8 +81,8 @@
   </widget>
   <action name="actionExit">
    <property name="icon">
-    <iconset resource="assets.qrc">
-     <normaloff>:/assets/imgs/close.png</normaloff>:/assets/imgs/close.png</iconset>
+    <iconset>
+     <normaloff>../../../../../usr/share/pixmaps/mytodo-close.png</normaloff>../../../../../usr/share/pixmaps/mytodo-close.png</iconset>
    </property>
    <property name="text">
     <string>Exit</string>
@@ -90,8 +90,8 @@
   </action>
   <action name="actionAbout">
    <property name="icon">
-    <iconset resource="assets.qrc">
-     <normaloff>:/assets/imgs/about.png</normaloff>:/assets/imgs/about.png</iconset>
+    <iconset>
+     <normaloff>../../../../../usr/share/pixmaps/mytodo.png</normaloff>../../../../../usr/share/pixmaps/mytodo.png</iconset>
    </property>
    <property name="text">
     <string>About...</string>

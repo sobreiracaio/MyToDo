@@ -1,0 +1,14 @@
+Package:mytodo
+Version: 1.0
+Priority:
+Architecture: all
+Essencial:
+Depends: libQt6Widgets6t64, libQt6Gui6t64, libQt6Core6t64, libqt6sql6t64
+Pre-depends:
+Suggests:
+Installed-Size:
+Maintainer: Caio S.
+Conflicts:
+Replaces:
+Provides:
+Description: App for daily tasks management

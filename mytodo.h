@@ -28,7 +28,7 @@ public:
 
 
     QString home = getenv("HOME");
-    QString dir = ":/database.db";
+    QString dir = "/usr/share/doc/mytodo/database.db";
     QString user = home + "/.config/database.db";
 
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");

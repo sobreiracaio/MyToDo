@@ -24,7 +24,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(MyToDo
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        assets.qrc
+
         edit.h edit.cpp edit.ui
     )
 # Define target properties for Android with Qt 6 as:
